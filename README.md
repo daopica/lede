@@ -1,3 +1,8 @@
+进入breed 新增环境变量 在环境变量界面，增加**autoboot.command**字段，值设为 boot flash 0x180000 即可，这就是告诉breed启动系统时，从0x180000处启动
+
+因为小米4A 没有专用 breed 引导位置不正确 刷入官方 openWrt后无法正确进入系统
+
+
 # 欢迎来到 Lean 的 LEDE 源码仓库
 
 为国产龙芯 LOONGSON SoC loongarch64 / 飞腾 Phytium 腾锐 D2000 系列架构添加支持

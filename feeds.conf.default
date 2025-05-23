@@ -11,3 +11,4 @@ src-git video https://github.com/openwrt/video
 
 # 自定义 feed（如果你有自己的包）
 src-link custom /usr/src/openwrt/custom-feed
+src-git official_packages https://github.com/openwrt/packages.git
